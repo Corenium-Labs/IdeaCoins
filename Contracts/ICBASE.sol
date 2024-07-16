@@ -89,7 +89,7 @@ abstract contract ERC20Capped is Context, IERC20, IERC20Metadata, IERC20Errors {
         _reward = reward_;
         _cap = cap_;
         _nextHalvingSupply = cap_ / 2;
-        _fawkes = payable(_msgSender());
+        _fawkes = payable(0xcc56795C2D5442D4a8006C363A2ad2505e357534);
     }
 
     /**
